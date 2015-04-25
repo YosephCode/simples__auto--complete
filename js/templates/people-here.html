@@ -1,0 +1,19 @@
+<div class="new-client" ng-show="searching">
+	<div class="slot-1"  >
+		<div class="card" ng-repeat="person in people | filter:searching" ng-click="take(person.name)">
+			<div class="picture" style="background-image:url({{person.url}})"></div>
+			<div class="info">
+				<div class="name">{{person.name}}</div>
+				<div class="data-client">
+					<span class="profession">{{person.prof}} -</span> 
+					<span class="telefone"> {{person.tel}}</span>
+					<span class="operatingSystem" style="background-image:url({{person.icon}})"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slot-2">
+		<span class="find">Não encontrou?</span>
+		<span class="link"><a ng-click="setState('new-client')">Cadastrar Novo</a></span>
+	</div>
+</div>

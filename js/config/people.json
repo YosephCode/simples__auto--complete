@@ -1,0 +1,26 @@
+{
+	"peopleJson": 
+	[
+		{	"name":"Marcos do Cantos", 
+			"url":"img/pic1.jpg", 
+			"prof":"Designer", 
+			"tel":"(48) 94958734", 
+			"icon":"img/1412295870_Apple.png" 
+		},
+		{
+			"name":"Ramon Maciel", 
+			"url":"img/pic4.jpg", 
+			"prof":"Dentista", 
+			"tel":"(48) 94958734", 
+			"icon":"img/1412295890_Windows.png"
+		},
+		{
+			"name":"Gélio José da Silva Junior", 
+			"url":"img/pic2.jpg", 
+			"prof":"Desenvolverdor", 
+			"tel":"(38) 94958734", 
+			"icon":"img/1412295870_Apple.png"
+		}
+	]
+}
+	

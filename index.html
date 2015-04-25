@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="pt-br" ng-app="register">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<title>Simples Dental</title>
+	</head>
+	<body>
+		<section>
+			<header>
+				<div class="logo"></div>
+			</header>
+			<article>
+				<div search-people ng-Controller="peopleController" class="search-people" config="people" ></div>
+			</article>
+		</section>
+
+		<script type="text/javascript" src="js/vendor/angular.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/controllers/peopleController.js"></script>
+	</body>
+</html>

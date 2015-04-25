@@ -1,0 +1,157 @@
+/*-----RESET-----*/
+* {margin:0;padding:0;list-style:none;vertical-align:baseline;}
+body{width: 50%;
+margin: 0 auto;
+min-width: 950px;}
+
+header{	
+	margin: 0 auto;
+	width: 60%;
+	text-align: center;
+}
+.logo{
+	background: url(../img/logo.png) ;
+	display: inline-block;
+	width: 463px;
+	height: 111px;
+	background-position: center;
+	background-size: cover;
+}
+article{
+	margin: 0 auto;
+	width: 60%;
+}
+.search{
+	position: relative;
+}
+.inputSearch{
+	width: 99.2%;
+	height: 30px;
+	outline: 0;
+}
+span{display: inline-block;}
+span.lupa{	
+	cursor:pointer;
+	width: 25px;
+	height: 25px;
+	background: url(../img/icons.png) top left no-repeat;
+	background-position: 0 0px;
+	background-size: cover;
+	position: absolute;
+	right: 8px;
+	top: 5px;
+}
+div.picture{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;	
+}
+div.info{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+span.operatingSystem{
+	width: 15px;
+	height: 15px;
+	background-position: center;
+	background-size: cover;
+	margin-left: 8px;
+}
+div.name{
+	font-size: 38px;
+	line-height:1;
+}
+div.card{
+	cursor: pointer;
+	padding: 15px 8%;
+}
+div.card:hover{
+	background: #418ab5;
+	color: white;
+}
+div.cardReg{
+	padding: 15px 8%;
+}
+
+div.slot-1{border-bottom: 1px solid #ccc;}
+div.slot-2{margin: 0 auto; width: 60%;padding: 20px;}
+.data-client{font-size: 18px;}
+span.profession, span.telefone{	
+	font-weight: bold;
+	color: rgb(170, 169, 169);
+}
+span.find{font-weight: 600; font-size: 26px;}
+span.link a{font-size: 26px;text-decoration: underline;color: rgb(55, 141, 221);}
+div.new-client{padding: 20px 0;border:2px solid rgb(55, 141, 221);}
+.form-client{padding: 30px;}
+h3{
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #ccc;
+	font-size: 26px;
+	color: gray;
+}
+input[type=text]{height:30px;}
+.inputDtTexto{width: 100%;}
+.dataText{width: 45.5%;
+display: inline-block;
+padding: 15px 10px;}
+
+
+.dataProfession{
+display: block;
+padding: 0 10px;}
+
+
+label{font-size: 22px;width: 100%;
+font-weight: bold;
+color: rgb(151, 144, 144);
+line-height: 1.8;}
+
+button{width: 100%;
+padding: 10px;
+font-size: 16px;
+background: rgb(33, 156, 33);
+color: white;}
+.submit{padding: 20px 5px;}
+a{cursor: pointer;}
+
+@media (max-width: 992px){
+	body{width: 100%;min-width: 0;}
+	header{width: 80%;}
+	article{width: 80%;}
+	.dataText{width: 46.3%;}
+	div.slot-2 {width: 80%;}
+}
+@media (max-width: 825px){
+	.dataText, .dataProfession{width: 95%;}
+	div.name {font-size: 30px;line-height: 1.2;}
+	
+}
+@media (max-width: 620px){
+	header{width: 100%;}
+	.logo{height: 80px;width: 70%;}
+	div.name {font-size: 22px;line-height: 1.5;}
+	.data-client{font-size: 14px;}
+	div.info{margin-left: 4px;}
+	span.find, span.link a{font-size: 20px;}
+}
+@media (max-width: 480px){
+	article{width: 95%;}
+	.logo{height: 60px;	width: 260px;}
+	.submit {	padding: 20px 3px;}
+	div.name {font-size: 22px;line-height: 1.5;}
+	div.info {display: block;margin: 0 auto;text-align: center;}	
+	div.picture {display: block;margin: 0 auto;}
+	div.slot-2 {text-align: center;}
+
+}
+@media (max-width: 320px){
+	.form-client{padding: 10px 15px;}
+	.dataText, .dataProfession{width: 100%;padding: 0;}
+}
+

@@ -1,0 +1,22 @@
+<div class="new-client">
+	<form class="form-client">
+		<h3>Novo Profissional</h3>
+		<div class="dataText">
+			<label>Nome</label>
+			<input type="text" ng-model="person.name" class="inputDtTexto" maxlength="25" required >
+		</div>
+		<div class="dataText">
+			<label>Telefone</label>
+			<input type="text" ng-model="person.tel" class="inputDtTexto" maxlength="12" required>
+		</div>
+		<div class="dataProfession">
+			<label>Cargo</label>
+			<input type="text" ng-model="person.prof" class="inputDtTexto" required >
+		</div>
+		<div class="submit">
+			<button ng-disabled="!(person.name && person.tel && person.prof)" ng-click=" add(person); setState('registeredClient')" >Salvar</button>
+		</div>
+	</form>
+</div>
+
+
